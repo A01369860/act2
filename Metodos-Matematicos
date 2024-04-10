@@ -1,13 +1,5 @@
 def convertir_decimal_binario(numero):
-  """
-  Convierte un número decimal a binario.
-
-  Parámetros:
-    numero: El número decimal a convertir.
-
-  Retorno:
-    El número binario equivalente.
-  """
+  
   binario = ""
   while numero > 0:
     binario = str(numero % 2) + binario
@@ -15,15 +7,7 @@ def convertir_decimal_binario(numero):
   return binario
 
 def factorial(numero):
-  """
-  Calcula el factorial de un número.
-
-  Parámetros:
-    numero: El número al que calcular el factorial.
-
-  Retorno:
-    El factorial de 'numero'.
-  """
+  
   if numero == 0:
     return 1
   else:
